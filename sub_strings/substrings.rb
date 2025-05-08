@@ -16,8 +16,9 @@ def substrings(string, substrings_arr)
   result
 end
 
+#test
 dictionary = ["So", "long", "and", "thanks", "for", "all", "the", "fish"]
 result = substrings("It's been so long long longy longerson since I ate this many fishy fishies", dictionary)
-puts "It's been so long since I ate this many fishies"
+puts "It's been so long long longy longerson since I ate this many fishy fishies"
 p dictionary
 p result
