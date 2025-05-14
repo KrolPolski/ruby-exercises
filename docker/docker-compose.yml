@@ -1,0 +1,7 @@
+services:
+  ruby:
+    image: ruby:latest
+    command: bash -c 'ruby script.rb'
+    working_dir: /usr/app/
+    volumes:
+      - ./:/usr/app/
